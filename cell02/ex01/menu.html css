@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SNCF Sandwich Menu</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #c69d4f;
+    }
+
+    nav {
+      background-color: #9e1eda;
+      padding: 10px 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    ul.menu {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    ul.menu > li {
+      position: relative;
+      margin-right: 30px;
+    }
+
+    ul.menu > li > a {
+      text-decoration: none;
+      color: white;
+      padding: 10px 15px;
+      display: block;
+      font-weight: bold;
+    }
+
+    ul.menu > li:hover > a {
+      background-color: #b33636;
+      border-radius: 8px;
+    }
+
+    ul.dropdown {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: #fff7e6; /* สีขนมปัง */
+      border-radius: 8px;
+      box-shadow: 0 8px 12px rgba(0,0,0,0.15);
+      display: none;
+      min-width: 180px;
+      z-index: 999;
+    }
+
+    ul.menu > li:hover > ul.dropdown {
+      display: block;
+    }
+
+    ul.dropdown li a {
+      display: block;
+      padding: 10px 15px;
+      text-decoration: none;
+      color: #333;
+      font-size: 14px;
+    }
+
+    ul.dropdown li a:hover {
+      background-color: #f1e0c4;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul class="menu">
+      <li>
+        <a href="#">Sandwich Menu 🥪</a>
+        <ul class="dropdown">
+          <li><a href="#">Ham & Cheese</a></li>
+          <li><a href="#">Tuna Salad</a></li>
+          <li><a href="#">Veggie Delight</a></li>
+        </ul>
+      </li>
+      <li><a href="#">Drinks 🧃</a></li>
+       <ul class="dropdown">
+          <li><a href="#">Blue Hawaii</a></li>
+          <li><a href="#">Thai tea</a></li>
+          <li><a href="#">Cocktail</a></li>
+         </ul>
+        </li>
+      <li><a href="#">Contact 🚆</a></li>
+    </ul>
+  </nav>
+
+</body>
+</html>
