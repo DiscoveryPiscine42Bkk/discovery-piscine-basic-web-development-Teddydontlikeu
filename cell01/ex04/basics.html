@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Basics</title>
+  <style>
+    body {
+      margin: 0;
+      background-color: pink;
+      font-family: Arial, sans-serif;
+      color: white;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 3em;
+      margin: 40px 0;
+    }
+
+    .shop-container {
+      display: flex;
+      justify-content: center;
+      gap: 60px;
+      margin-bottom: 20px;
+    }
+
+    .shop {
+      text-align: center;
+    }
+
+    .shop img {
+      width: 250px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+
+    .shop a {
+      display: block;
+      margin-top: 8px;
+      color: white;
+      text-decoration: underline;
+      font-weight: bold;
+    }
+
+    hr {
+      border: none;
+      border-top: 2px solid white;
+      margin: 40px 0;
+      width: 100%;
+    }
+
+    footer {
+      font-style: italic;
+      font-family: monospace;
+      color: white;
+      text-align: right;
+      padding-right: 20px;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Piscine Web ✨</h1>
+
+  <div class="shop-container">
+    <div class="shop">
+      <a href="https://th.shp.ee/jmLKYeo" target="_blank" rel="noopener noreferrer">
+        <img src="blush.jpg" alt="blush product" />
+      </a>
+      <a href="https://th.shp.ee/jmLKYeo" target="_blank" rel="noopener noreferrer">
+        Visit blush product
+      </a>
+    </div>
+
+    <div class="shop">
+      <a href="https://th.shp.ee/SokEzJg" target="_blank" rel="noopener noreferrer">
+        <img src="eye.jpg" alt="eye product" />
+      </a>
+      <a href="https://th.shp.ee/SokEzJg" target="_blank" rel="noopener noreferrer">
+        Visit eye product
+      </a>
+    </div>
+  </div>
+
+  <hr />
+
+  <footer>
+    © rkeawwan <span id="year"></span>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
