@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Parallax</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html, body {
+      height: 100%;
+      font-family: monospace;
+      scroll-behavior: smooth;
+    }
+
+    .parallax {
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-size: 1.5em;
+      text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+      text-align: center;
+    }
+
+    .parallax1 {
+      background-image: url('Paral.jpg');
+    }
+
+    .parallax2 {
+      background-image: url('lax.jpg');
+    }
+
+    .content {
+      background-color: black;
+      color: white;
+      padding: 100px 20px;
+      text-align: center;
+      font-size: 2em;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="parallax parallax1">
+    <p>Bad and Classy</p>
+  </div>
+
+  <div class="content">
+    <p>EAT, PRAY, SLAY</p>
+  </div>
+
+  <div class="parallax parallax2">
+    <p>Jqdrama1sland</p>
+  </div>
+
+</body>
+</html>
