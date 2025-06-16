@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>User Profile Card</title>
+  <style>
+    body {
+      font-family: 'Courier New', monospace; 
+      margin: 0;
+      background: #f2f2f2; 
+      display: flex;
+      justify-content: center; 
+      align-items: center;    
+      height: 100vh;         
+    }
+
+    .card {
+      background-color: white;
+      width: 300px; 
+      text-align: center;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    }
+
+    .card h2 {
+      margin: 16px 0 0;
+      font-size: 22px; 
+    }
+
+    .profile-img {
+      width: 100%;
+      height: auto;
+    }
+
+    .name {
+      font-size: 24px;      
+      font-weight: bold;    
+      margin: 10px 0 4px;
+    }
+
+    .desc {
+      color: #666;         
+      margin: 0 0 6px;
+    }
+
+    .location {
+      font-weight: bold;
+      color: #333;
+    }
+
+    .socials {
+      margin: 12px 0;
+    }
+
+    .socials i {
+      margin: 0 5px;
+      font-size: 20px;
+      color: #000;
+    }
+
+    .contact-btn {
+      background-color: #000;
+      color: white;
+      border: none;
+      padding: 12px;
+      width: 100%;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .contact-btn:hover {
+      background-color: #444;
+    }
+  </style>
+
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+  <div class="card">
+    <h2>User Profile Card</h2>
+    <img class="profile-img" src="Cat.jpg" alt="Profile Picture">
+    
+    <!-- เปลี่ยนชื่อผู้ใช้ -->
+    <div class="name">Jqdrama1sland</div>
+    
+    <!-- เปลี่ยนคำอธิบายโปรไฟล์ -->
+    <div class="desc">Digital Catlover</div>
+    
+    <!-- เปลี่ยนที่อยู่หรือข้อความอื่น -->
+    <div class="location">TeddyBKK</div>
+    
+    <div class="socials">
+      <i class="fab fa-dribbble"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-linkedin-in"></i>
+      <i class="fab fa-facebook-f"></i>
+    </div>
+
+    <button class="contact-btn">Contact</button>
+  </div>
+
+</body>
+</html>
