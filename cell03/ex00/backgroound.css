@@ -1,0 +1,20 @@
+body {
+  text-align: center;
+  padding: 50px;
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  transition: background-color 0.5s;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #818181;
+  color: white;
+}
+
+button:hover {
+  background-color: #181818;
+}

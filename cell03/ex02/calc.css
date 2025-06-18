@@ -1,0 +1,39 @@
+/* Your CSS styles will go here */
+/* For example, you might add styles like this: */
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+h1 {
+  color: #333;
+}
+
+input[type="text"],
+select {
+  padding: 8px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
